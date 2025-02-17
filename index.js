@@ -22,8 +22,8 @@ mongoose
   .connect(process.env.MONGO_DB_URL)
   .then(() => {
     console.log('Connected to database');
-    app.listen(process.env.PORT || 5555, () => {
-      console.log(`Server running on port ${process.env.PORT || 5555}`);
+    app.listen(process.env.PORT || 7777, () => {
+      console.log(`Server running on port ${process.env.PORT || 7777}`);
     });
   })
   .catch((error) => console.error('Database connection error:', error.message));
