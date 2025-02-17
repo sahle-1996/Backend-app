@@ -3,8 +3,8 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import booksRoute from '/routes/booksRoute.js';
-import userRoute from '/routes/userRoute.js';
+import booksRoute from './routes/booksRoute.js';
+import userRoute from './routes/userRoute.js';
 
 dotenv.config();
 
